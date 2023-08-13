@@ -5,9 +5,11 @@ body{
 }
 .navbar {
     
-   height: 60px;
+   height: 70px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -27,5 +29,24 @@ width: 100%;
 }
 .border:hover {
     border: 1px solid white;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
+
+.add-first{
+    
+        color: #cccccc;
+        font-size: 0.8rem;
+        margin-top: 12px;
+        margin-bottom: 0;
+        margin-left: 15px;
+}
+.add-second{
+    margin-top: 0;
+     font-size: 1rem;
+     margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+}
