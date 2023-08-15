@@ -195,3 +195,67 @@ span{
 .box-content p:hover{
     color: red;
 }
+
+
+/*------------------------ footer style add ------------------------------ */
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel{
+   background-color: #37475a; 
+   color: white;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 0.9rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 a{
+    color: #dddddd ;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.amazon-logo{
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-left: 25%;
+    margin-right: 70px;
+    margin-top: 15px;
+
+}
+.global-img{
+    /* margin-top: 15px; */
+    margin-left: 10px;
+    display: flex;
+    margin-top: 0;
+}
+.global-img p {
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 13px;
+}
