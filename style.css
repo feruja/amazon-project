@@ -228,11 +228,10 @@ footer{
 .foot-panel3{
     background-color: #222f3d;
     color: white;
-    border-top: 0.5px solid white;
+    border-top: 0.01px solid #ddddddd1;
     height: 70px;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    
 
 }
 .amazon-logo{
@@ -254,8 +253,33 @@ footer{
 .global-img p {
     margin-top: 20px;
     margin-left: 10px;
-    border: 1px solid white;
+    border: 1px solid #dddddd;
     border-radius: 4px;
     padding: 8px;
     font-size: 13px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: #dddddd;
+    height: 80px;
+    text-align: center;
+    
+  
+}
+
+.foot-panel4 a{
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding-top: 25px;
+    
+}
+
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+    font-size: 0.85rem;
+    text-align: center;
 }
